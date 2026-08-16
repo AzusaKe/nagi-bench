@@ -30,7 +30,7 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 
 | Model | Vendor | Harness x Effort | Runs |
 |---|---|---|---|
-| Claude Opus 5 | Anthropic | Claude Code · Max<br>Claude Code · xhigh<br>Claude Code · High | 15 |
+| Claude Opus 5 | Anthropic | Claude Code · Max<br>Claude Code · xhigh<br>Claude Code · High | 16 |
 | Claude Fable 5 | Anthropic | Claude Web App · Max<br>Claude Code · High<br>Claude Code · Max<br>Claude Code · xhigh<br>Cursor · High | 11 |
 | Claude Sonnet 5 | Anthropic | Claude Code · Max | 01 |
 | Claude Opus 4.8 | Anthropic | Claude Code · Max<br>Claude Code · xhigh | 08 |
@@ -39,7 +39,7 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | Claude Opus 4.5 | Anthropic | Cursor · Thinking | 02 |
 | Claude Sonnet 4.6 | Anthropic | Claude Code · Max<br>Cursor · High | 03 |
 | Claude Haiku 4.5 | Anthropic | Claude Code · Default | 02 |
-| GPT-5.6-Sol | OpenAI | Codex CLI · ultra<br>Codex CLI · max<br>Codex CLI · xhigh | 09 |
+| GPT-5.6-Sol | OpenAI | Codex CLI · ultra<br>Codex CLI · max<br>Codex CLI · xhigh | 10 |
 | GPT-5.6-Terra | OpenAI | Codex CLI · ultra<br>Codex CLI · xhigh | 04 |
 | GPT-5.5 Pro | OpenAI | ChatGPT Web · Extended Pro | 03 |
 | GPT-5.5 | OpenAI | Codex CLI · xhigh | 03 |
@@ -47,7 +47,7 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | GPT-5.3 Codex | OpenAI | Cursor · xhigh | 02 |
 | GPT-5.2 | OpenAI | Cursor · xhigh | 02 |
 | Gemini 3.1 Pro | Google | AntiGravity · High<br>Cursor · Default<br>Gemini Web · Deep Think<br>Google AI Studio · High | 11 |
-| Gemini 3.7 Flash | Google | AntiGravity · Medium | 03 |
+| Gemini 3.7 Flash | Google | AntiGravity · Low<br>AntiGravity · Medium<br>AntiGravity · High | 06 |
 | Gemini 3.6 Flash | Google | AntiGravity · High | 05 |
 | DeepSeek V4 Flash | DeepSeek | Claude Code · Max<br>Reasonix · Max | 02 |
 | DeepSeek V4 Flash 0731 | DeepSeek | Claude Code · Max<br>OMP · Default | 05 (showcase 01) |
@@ -59,13 +59,13 @@ One-shot LLM eval cases by NAGI STUDIO: same prompt, different model x harness x
 | Composer 2.5 | Cursor | Cursor · Max<br>Cursor · Default<br>Grok Build TUI · Default | 05 |
 | Mistral Medium 3.5 | Mistral AI | Vibe · Thinking | 02 |
 | DeepSeek-V4-Pro | DeepSeek | Claude Code · Max<br>Qoder · Max<br>Open Code · High | 05 |
-| DeepSeek V4 Pro 0813 | DeepSeek | Codex CLI · xhigh | 01 (showcase 01) |
+| DeepSeek V4 Pro 0813 | DeepSeek | DeepSeek Harness · High<br>DeepSeek Harness · Minimal · High<br>DeepSeek Harness · Max<br>Codex CLI · xhigh | 21 (showcase 01) |
 | Doubao Seed 2.0 Pro | ByteDance | Doubao Web · Pro Mode | 01 |
 | Doubao Seed 2.0 Mini | ByteDance | Doubao Web · Fast Mode | 01 |
 | MiMo V2.5 | Xiaomi | MiMo Code · High | 03 |
 | MiMo v2.5 Pro | Xiaomi | Claude Code · Max<br>MiMo Code · Max | 03 |
 | MiMo v2.5 Pro UltraSpeed | Xiaomi | Web · Default | 05 |
-| Kimi K3 | Moonshot AI | Claude Code · Max<br>Kimi Code · Max<br>Kimi Web · Max | 11 |
+| Kimi K3 | Moonshot AI | Claude Code · Max<br>Kimi Code · Max<br>Kimi Web · Max | 12 |
 | Kimi K2.7-Code | Moonshot AI | Kimi Code · Thinking<br>Qoder · Default | 04 |
 | Kimi K2.6 | Moonshot AI | Kimi Code · Thinking | 02 |
 | MiniMax M3 | MiniMax | MiniMax Code Web · Thinking<br>Qoder · Default | 03 |
