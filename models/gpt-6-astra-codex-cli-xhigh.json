@@ -1,0 +1,16 @@
+{
+  "label": "GPT-6 Astra",
+  "vendor": "OpenAI",
+  "harness": "Codex CLI",
+  "effort": "xhigh",
+  "artifactDir": "gpt-6-astra/codex-cli-xhigh",
+  "runs": {
+    "pelican-cycling": {
+      "note": {
+        "zh": "使用 cases.json 中的标准中文提示词，在隔离的裸 Codex CLI 中以 GPT-6 Astra（xhigh）一次启动，未加载额外 skill、插件或 MCP，也未使用自定义系统提示。模型在同一次 CLI 运行中创建项目、生成 public/coastal-pelican.svg，并执行构建与浏览器检查后完成修复；没有人工修改代码。提交文件是该运行生成的独立 SVG，仅按仓库规范无内容改动地复制为 pelican-cycling.svg，Vite 外壳、依赖和检查缓存未提交。",
+        "en": "Started once from the canonical Chinese prompt in cases.json using GPT-6 Astra (xhigh effort) in an isolated bare Codex CLI; no additional skills, plugins, or MCP servers were loaded, and no custom system prompt was used. Within the same CLI run, the model created the project, generated public/coastal-pelican.svg, and ran the build and browser checks before completing its fixes; no human code edits were made. The submitted file is that standalone SVG, copied without content changes to the repository's canonical name pelican-cycling.svg; the Vite shell, dependencies, and check cache are not included."
+      },
+      "contributor": "AzusaKe"
+    }
+  }
+}
